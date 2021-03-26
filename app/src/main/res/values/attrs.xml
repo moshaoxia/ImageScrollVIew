@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ScrollImageView">
+        <!--要滚动的图-->
+        <attr name="src" format="reference" />
+        <!--遮罩图 -->
+        <attr name="mask" format="reference" />
+        <!--是否滚动-->
+        <attr name="scroll" format="boolean" />
+        <!-- 一次绘制要滚动的距离，用来当速度 -->
+        <attr name="speed" format="integer"/>
+        <!--滚动完一张图的时间-->
+        <attr name="scrollTime" format="integer"/>
+        <!-- 滚动方向,默认水平滚动-->
+        <attr name="scrollOrientation" format="integer">
+            <enum name="horizontal" value="0" />
+            <enum name="vertical" value="1" />
+        </attr>
+    </declare-styleable>
+
+    <!--圆角Layout-->
+    <declare-styleable name="RCAttrs">
+        <!--全部圆角半径-->
+        <attr name="round_corner" format="integer|dimension" />
+        <!--针对各个角的半径-->
+        <attr name="round_corner_top_left" format="integer|dimension" />
+        <attr name="round_corner_top_right" format="integer|dimension" />
+        <attr name="round_corner_bottom_left" format="integer|dimension" />
+        <attr name="round_corner_bottom_right" format="integer|dimension" />
+    </declare-styleable>
+</resources>

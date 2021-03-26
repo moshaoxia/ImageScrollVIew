@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:paddingTop="20dp">
+    <com.moshaoxia.imageccrollview.ScrollImageLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginBottom="20dp"
+        app:src="@drawable/mianhua"
+        app:scrollOrientation="vertical"
+        app:speed="4"
+        />
+    <com.moshaoxia.imageccrollview.ScrollImageLayout
+        android:id="@+id/fl_main"
+        android:layout_width="300dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center_horizontal"
+        app:scrollTime="10"
+        app:scroll="false"
+        app:src="@drawable/bg"
+        app:round_corner="15dp"
+        >
+    </com.moshaoxia.imageccrollview.ScrollImageLayout>
+
+
+    <Button
+        android:id="@+id/btn_start"
+        android:text="滚动"
+        style="@style/button" />
+
+    <Button
+        android:id="@+id/btn_stop"
+        style="@style/button"
+        android:text="停止滚动" />
+
+    <Button
+        android:id="@+id/btn_change"
+        style="@style/button"
+        android:text="切换滚动方向" />
+    <Button
+        android:id="@+id/btn_mask"
+        style="@style/button"
+        android:text="设置Mask"
+        />
+</androidx.appcompat.widget.LinearLayoutCompat>
