@@ -9,6 +9,7 @@
 - 支持控制滚动开始和暂停
 - 支持图片等比例放缩适应布局宽高
 ## 效果预览
+<img src="https://github.com/moshaoxia/ImageScrollVIew/blob/master/demo.gif" alt="show" width="300px" height="600px"/>
 
 ## 使用方式
 将ScrollImageLayout和attrs.xml文件拷贝入自己的工程即可使用。
