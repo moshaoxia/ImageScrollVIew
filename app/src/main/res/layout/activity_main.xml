@@ -20,7 +20,7 @@
         android:layout_gravity="center_horizontal"
         app:scrollTime="10"
         app:scroll="false"
-        app:src="@drawable/bg"
+        app:src="@drawable/iconman"
         app:round_corner="15dp"
         >
     </com.moshaoxia.imageccrollview.ScrollImageLayout>

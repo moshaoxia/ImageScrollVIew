@@ -24,7 +24,7 @@ class MainActivity : AppCompatActivity() {
             fl_main.setScrollOrientation(orientation)
         }
         btn_mask.setOnClickListener {
-            fl_main.setMaskDrawable(resources.getDrawable(R.drawable.friend_cast_mask_drawable))
+            fl_main.setMaskDrawable(resources.getDrawable(R.drawable.mask_drawable))
         }
     }
 }
